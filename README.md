@@ -20,19 +20,6 @@ train_data.head()
 
 
 <div>
-<style scoped>
-    .dataframe tbody tr th:only-of-type {
-        vertical-align: middle;
-    }
-
-    .dataframe tbody tr th {
-        vertical-align: top;
-    }
-
-    .dataframe thead th {
-        text-align: right;
-    }
-</style>
 <table border="1" class="dataframe">
   <thead>
     <tr style="text-align: right;">
@@ -147,19 +134,6 @@ test_data.head()
 
 
 <div>
-<style scoped>
-    .dataframe tbody tr th:only-of-type {
-        vertical-align: middle;
-    }
-
-    .dataframe tbody tr th {
-        vertical-align: top;
-    }
-
-    .dataframe thead th {
-        text-align: right;
-    }
-</style>
 <table border="1" class="dataframe">
   <thead>
     <tr style="text-align: right;">
@@ -292,19 +266,6 @@ train_data.describe()
 
 
 <div>
-<style scoped>
-    .dataframe tbody tr th:only-of-type {
-        vertical-align: middle;
-    }
-
-    .dataframe tbody tr th {
-        vertical-align: top;
-    }
-
-    .dataframe thead th {
-        text-align: right;
-    }
-</style>
 <table border="1" class="dataframe">
   <thead>
     <tr style="text-align: right;">
@@ -560,7 +521,7 @@ print(f"Precisión del modelo en datos de test con la combinación de hiperpará
 ```
 
     Fitting 10 folds for each of 20 candidates, totalling 200 fits
-    Precisión del modelo en datos de test con la combinación de hiperparámetros: 0.8209
+    Precisión del modelo en datos de test con la combinación de hiperparámetros: 0.8582
 
 
 Por último, hacemos las predicciones sobre los datos de test de Kaggle y los guardamos, para hacer el envío a la competición:
